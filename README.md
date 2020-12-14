@@ -45,25 +45,28 @@ Go to [localhost:8000/docs](localhost:8000/docs)
 
 
 # Task
-Your task is to develop a CI/CD pipeline and deploy this service on a K8 cluster.
+Your task is to develop a CI/CD pipeline and deploy this service on a K8 cluster. 
+Please keep the answers short and crisp.
 The following are subtasks/questions:
 
 1. **CI/CD Pipeline**:
    You have to create a CI/CD pipeline to deploy this service on a K8 cluster.
    You can use any automation tool, e.g., CircleCI, AzurePipelines, Github Actions, etc. to do so.
-   You do everything with a free Azure/AWS account. We recommend using Azure.  
+   You can do everything with a free Azure/AWS account. We recommend using Azure.  
 
 2. Share the API URL with us
 
-3. How can you scale this service to handle 2000 Calls per second
+3. How can you scale this service to handle 2000 requests per second
 
-4. What tools would you use to monitor the service, and log API usage?
+4. What tools can be used to monitor the service throughput?
 
-5. What strategy did you use to make the model files accessible to all services?
+5. What tools can be used to load-test the service?
 
-6. What will be your strategy for AB testing, given a new model? 
+6. What strategy did you use to make the model files accessible to all services?
 
-7. **[BONUS]** What will be your strategy to setup a staging and dev environment?
+7. What will be your strategy for AB testing, given a new model file? 
+
+8. **[BONUS]** What will be your strategy to setup a staging and dev environment, and how you automate the deployment process for each environment?
 
 # How to Submit your Solution
 - Fork/copy this repo
