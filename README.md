@@ -13,12 +13,12 @@ Note that you might have to use different commands on a different system.
 - Kubernetes
 
 ## 1. Download the Model
-This service requires a machine learning model to work. You have to download the models from [here](https://drive.google.com/file/d/1V0mOqzYBrc1WQvSHtNOcANiiArP-POfF/view?usp=sharing).
+This service requires a machine learning model to work. You have to download the models from [here](https://drive.google.com/file/d/1HZY0LNzSSlhbBUk-K71re6lkRId5bNyw/view?usp=sharing).
 Alternatively, you can download the model using the following scripts.  
 
 ```shell script
 # Download the zip file
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1V0mOqzYBrc1WQvSHtNOcANiiArP-POfF' -O model.zip
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1HZY0LNzSSlhbBUk-K71re6lkRId5bNyw' -O model.zip
 
 # Unzip the model files
 unzip model.zip
